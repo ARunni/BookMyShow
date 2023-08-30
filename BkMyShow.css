@@ -37,10 +37,10 @@ width: 30%;
 } */
 .left input{
     margin-inline: 11px;
-    width: 300px;
+    width: 470px;
     border: none;
     outline: none;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     padding-left: 10px;
 }
