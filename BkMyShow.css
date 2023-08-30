@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding:0;
+   
+}
+.fnav{
+    display: flex; 
+    justify-content: left;
+    justify-content: space-between;
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(42, 42, 68);
+    padding: 0px 20px;
+    height: 70px;
+    
+
+
+}
+.fnav .left{
+    
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+/* .left img{
+width: 30%;
+} */
+.left input{
+    margin-inline: 11px;
+    width: 300px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.fnav .right{
+    display: flex;
+
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+
+}
+.right button{
+    width: 80px;
+    height: 20px;
+    border:none ;
+    border-radius: 2px;
+    margin-top: 40px;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.right select{
+    height: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+.sec-nav{
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    background-color:  rgb(31, 31, 71);
+    padding: 0px 20px;
+    height: 30px;
+    
+
+}
+.sec-nav .s-left{
+    display: flex;
+    height: 100%;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+ p{
+    color: white;
+    padding: 5px;
+
+}
+.container h2{
+    margin-left: 50px;
+    padding: 5px 5px;
+}
+.container h4{
+    color: white;
+    margin-left: 55px;
+}
+.banner{
+    padding: 35px 0px;
+}
+.banner img{
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+}
+.main{
+    display: flex;
+     justify-content: center;
+}
+.main img{
+    width: 95%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    
+}
+.card {
+    /* padding-left: 10px; */
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 25px
+}
+#event img{
+
+    height: 250px;
+
+}
+.premier{
+    background-color: rgb(43,49,73,255);
+    width: 100%;
+}
+.premier{
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer{
+    display: flex;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    background-color:#333338;
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    background-color:#333338;
+    justify-content: center;
+    padding-top: 47px;
+    padding-bottom: 22px;
+}
+.footer1 .line{
+    
+    border: 1px solid #5d5d5f;
+    height: 1px;
+    margin-top: 15px; 
+    width: 43%; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer .copyright{
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.icon{
+    padding: 0px 12px;
+    display: flex;
+    justify-content: space-around;
+    width: 242px;
+}
+#icon i{
+    font-size: 32px;
+}
+#icon :hover{
+    color: azure;
+}
+.text h3{
+    color: rgb(245, 242, 242);
+}
+
+.footercontent1{
+
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    background-color: #313035;
+}
+.footercontent1 .ftr1l
+{
+    display: flex;
+   
+}
+
+
+.ftr1l i{
+    font-size: 40px;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+
+
+.ftr1l p{
+    font-size:17px;
+    color: white;
+    padding-top: 27px;
+    padding-left: 14px;
+    
+    
+}
+
+.ftr1l label{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    padding-top: 27px;
+    padding-left: 14px;
+    
+}
+.ftr1r button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgb(236, 94, 113);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-right: 33px;
+    padding: 10px 20px;
+    
+}
+
+.footercontent2{
+    display: flex;
+    background-color: #404043;
+    justify-content: space-around;
+    height: 111px;
+    padding: 17px 56px;
+}
+.ftrleft{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ftrcenter{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ftrright{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ftrleft i{
+    font-size: 40px;
+    margin-left: 43px;
+}
+.ftrcenter i{
+    font-size: 40px;
+    margin-left: 74px;
+}
+.ftrright i{
+    font-size: 40px;
+    margin-left: 74px;
+}
+.ftrleft p{
+    font-size: 11px;
+}
+.ftrcenter p{
+    font-size: 11px;
+}
+.ftrright p{
+    font-size: 11px;
+}
